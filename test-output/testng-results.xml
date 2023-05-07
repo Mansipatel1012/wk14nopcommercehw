@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="20237" started-at="2023-05-07T12:48:57 BST" finished-at="2023-05-07T12:49:18 BST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyProductArrangeInAlphabaticalOrder()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="verifyProductArrangeInAlphabaticalOrder" class="com.nopcommerce.demo.testsuite.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTest.verifyProductArrangeInAlphabaticalOrder()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="verifyProductArrangeInAlphabaticalOrder" class="com.nopcommerce.demo.testsuite.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="com-nopcommerce-sw-5" duration-ms="20237" started-at="2023-05-07T12:48:57 BST" finished-at="2023-05-07T12:49:18 BST">
+      <class name="com.nopcommerce.demo.testsuite.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="setUp" is-config="true" duration-ms="14306" started-at="2023-05-07T12:48:58 BST" finished-at="2023-05-07T12:49:12 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="inIt" is-config="true" duration-ms="175" started-at="2023-05-07T12:49:12 BST" finished-at="2023-05-07T12:49:13 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphabaticalOrder()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="verifyProductArrangeInAlphabaticalOrder" duration-ms="3266" started-at="2023-05-07T12:49:13 BST" finished-at="2023-05-07T12:49:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphabaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@5e853265]" name="tearDown" is-config="true" duration-ms="1628" started-at="2023-05-07T12:49:16 BST" finished-at="2023-05-07T12:49:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginTest -->
+    </test> <!-- com-nopcommerce-sw-5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
